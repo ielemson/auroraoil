@@ -3,14 +3,37 @@
 
 <head>
     <title>Contacts | Aurora Oil & Gas Ltd</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport"
-        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
 
-    <!-- Favicon -->
-    <link rel="icon" href="{{ url('images/favicon.png') }}" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+<!-- SEO -->
+<meta name="description" content="Aurora Oil and Gas Ltd is a UK-registered energy company focused on upstream development, energy trading, and investment structuring with strong governance and HSE standards.">
+<meta name="keywords" content="Aurora Oil and Gas, oil and gas UK, upstream development, energy trading, ESG energy, energy investment, oil and gas advisory">
+<meta name="author" content="Aurora Oil and Gas Ltd">
+<meta name="robots" content="index, follow">
+
+<!-- Favicon -->
+<link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aurora Oil and Gas Ltd | Responsible Energy Development">
+<meta property="og:description" content="Delivering structured energy development, trading, and advisory services with strong governance and operational excellence.">
+<meta property="og:image" content="{{ asset('images/og-image.jpg') }}">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:site_name" content="Aurora Oil and Gas Ltd">
+
+<!-- Twitter (X) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aurora Oil and Gas Ltd | Responsible Energy Development">
+<meta name="twitter:description" content="Governance-led energy company delivering upstream, trading, and investment solutions.">
+<meta name="twitter:image" content="{{ asset('images/og-image.jpg') }}">
+
+<!-- Theme Color (optional but recommended) -->
+<meta name="theme-color" content="#0d2c4a">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css"

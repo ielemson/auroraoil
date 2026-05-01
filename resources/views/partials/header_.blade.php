@@ -91,7 +91,7 @@
                             <li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu 
                                 {{ request()->is('services*') ? 'active' : '' }}">
 
-                                <a class="rd-nav-link" href="{{ route('services.index') }}">
+                                <a class="rd-nav-link" href="javascript:;">
                                     Services
                                 </a>
                                 <span class="rd-navbar-submenu-toggle"></span>
