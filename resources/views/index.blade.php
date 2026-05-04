@@ -820,20 +820,26 @@
                                                         (0) XXXX XXX XXX</a></div>
                                             </div>
                                         </div>
-                                        <div class="footer-classic-contacts-item">
-                                            <div class="unit unit-spacing-sm align-items-center">
-                                                <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
-                                                <div class="unit-body"><a class="mail"
-                                                        href="mailto:info@auroraoil.co.uk">info@auroraoil.co.uk</a>
-                                                </div>
-                                            </div>
+                                       <div class="footer-classic-contacts-item">
+                                    <div class="unit unit-spacing-sm align-items-center">
+                                        <!-- Icon -->
+                                        <div class="unit-left">
+                                            <span class="icon mdi mdi-map-marker"></span>
+                                        </div>
+                                        <!-- Address -->
+                                        <div class="unit-body">
+                                            <a class="address"
+                                                href="https://www.google.com/maps?q=Silverstream+House,+45+Fitzroy+Street,+London,+W1T+6EB"
+                                                target="_blank">
+                                                Silverstream House, 45 Fitzroy Street,
+                                                London, England, W1T 6EB
+                                            </a>
                                         </div>
                                     </div>
+                                </div>
+                                    </div>
 
-                                    <a class="button button-sm button-primary button-winona"
-                                        href="{{ url('/contact') }}">
-                                        Speak with our team
-                                    </a>
+                                  
                                 </div>
                             </div>
                         </div>

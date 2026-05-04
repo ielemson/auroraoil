@@ -212,7 +212,7 @@
                                     <div class="unit unit-spacing-xs justify-content-center justify-content-md-start">
                                         <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
                                         <div class="unit-body">
-                                            <p class="mb-1">Registered in England &amp; Wales</p>
+                                            <p class="mb-1">Silverstream House, 45 Fitzroy Street, London, England, W1T 6EB</p>
                                             <p class="mb-0">Company No: 16379620</p>
                                         </div>
                                     </div>
